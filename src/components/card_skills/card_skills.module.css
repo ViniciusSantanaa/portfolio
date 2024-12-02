@@ -1,0 +1,35 @@
+.div_skills{
+    background-color: white;
+    width: 18rem;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.image_card{
+    width: 8rem;
+    height: 8rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+}
+
+.titulo_card{
+    font-size: 2rem;
+    background-color: white;
+    margin-top: 1rem;
+    color: var(--cor-azul-claro);
+}
+
+.skills_card{
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: white;
+    margin-top: 1rem;
+    color: var(--cor-cinza-escuro);
+}
+
+.div_skills:hover{
+    transform: translateY(-0.5rem);
+}
