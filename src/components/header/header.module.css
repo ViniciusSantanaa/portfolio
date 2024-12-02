@@ -19,12 +19,12 @@
 }
 
 .links{
-    color: var(--cor-azul-claro);
+    color: var(--cor-cinza-escuro);
     font-size: 1.3rem;
     font-weight: 600;
     background-color: white;
 }
 
 .links:hover{
-    border-bottom: solid 0.1rem var(--cor-azul-claro);
+    border-bottom: solid 0.1rem var(--cor-cinza-escuro);
 }
