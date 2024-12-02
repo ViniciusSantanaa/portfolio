@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.container__apresentacao{
+    flex-direction: column;
+    width: 50%;
+}
+
+.apresentacao__nome{
+    color: var(--cor-azul-claro);
+    font-size: 2rem;
+}
+
+.apresentacao__texto{
+    color: var(--cor-cinza-escuro);
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.imagem_programador{
+    width: 20rem;
+    height: 20rem;
+}
+
+.container_skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.h1_Skills{
+    color: var(--cor-azul-claro);
+    text-align: center;
+    font-size: 2.2rem;
+    margin-top: 5rem;
+}
