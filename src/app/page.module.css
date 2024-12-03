@@ -29,14 +29,37 @@
 .div_skills{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    justify-content: space-evenly;
+    margin-top: 3rem;
 }
 
-.h1_Skills{
+.h1_titulo{
     color: var(--cor-azul-claro);
     text-align: center;
     font-size: 2.2rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
+
+.section_projetos{
+    margin-top: 9rem;
+}
+
+.div_projetos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    border-top: solid 0.1rem lightgray;
+    height: 3rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.footer_direitos{
+    color: var(--cor-cinza-escuro);
+    margin-top: 1rem;
+}
+
+
