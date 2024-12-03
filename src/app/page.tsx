@@ -20,7 +20,7 @@ export default function Home() {
         <Image src={imagem_programador} alt={"imagem ilustrativa"} className={styles.imagem_programador}/>
       </section>
 
-      <section>
+      <section id="skills">
         <h1 className={styles.h1_titulo}>Skills</h1>
         <div className={styles.div_skills}>  
           <Card_Skill titulo={"Front End"} skills={"Html, CSS, Javascript, React, Next.js"} imagem={imagem_front} />
@@ -30,7 +30,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className={styles.section_projetos}>
+      <section className={styles.section_projetos} id="projetos">
         <h1 className={styles.h1_titulo}>Projetos</h1>
         <div className={styles.div_projetos}>
           <Card_Projetos titulo_projeto={"Eleve seu negócio"} descricao_projeto={"Projeto feito com o auxílio da Alura. Nele comecei meus conhecimentos em Front-End, com apenas um texto e imagem fictícia, e dois botões com meu instagram e github."} tecnologias={["HTML", "CSS"]} />
