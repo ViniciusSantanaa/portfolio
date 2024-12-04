@@ -62,4 +62,11 @@
     margin-top: 1rem;
 }
 
+@media (max-width: 438px) {
+    .div_skills{
+        gap: 1rem;
+    }
+    
+}
+
 
