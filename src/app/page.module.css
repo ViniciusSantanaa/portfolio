@@ -67,6 +67,10 @@
         flex-direction: column;
     }
 
+    .container__apresentacao{
+        width: 52%;
+    }
+
     .div_skills{
         gap: 1rem;
     }
