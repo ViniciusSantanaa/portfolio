@@ -77,4 +77,18 @@
     
 }
 
+@media (max-width: 430px) {
+    .container{
+        flex-direction: column;
+    }
+
+    .container__apresentacao{
+        width: 56%;
+    }
+
+    .div_skills{
+        gap: 1rem;
+    }
+    
+}
 
