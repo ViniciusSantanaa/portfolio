@@ -28,3 +28,13 @@
 .links:hover{
     border-bottom: solid 0.1rem var(--cor-cinza-escuro);
 }
+
+@media (max-width: 438px) {
+    .container{
+        width: 45%;
+    }
+
+    .links{
+        font-size: 1rem;
+    }
+}
