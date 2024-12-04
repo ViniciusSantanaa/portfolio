@@ -15,7 +15,7 @@ export default function Home() {
       <section className={styles.container}>
         <div className={styles.container__apresentacao}>
           <h1 className={styles.apresentacao__nome}>Vinícius De Souza Sant Anna</h1>
-          <p className={styles.apresentacao__texto}>Sou um desenvolvedor apaixonado por explorar o mundo da programação, sempre buscando aprender e aprimorar minhas habilidades</p>
+          <p className={styles.apresentacao__texto}>Sou um desenvolvedor apaixonado por explorar o mundo da programação, sempre buscando aprender e aprimorar minhas habilidades.</p>
         </div>
         <Image src={imagem_programador} alt={"imagem ilustrativa"} className={styles.imagem_programador}/>
       </section>
