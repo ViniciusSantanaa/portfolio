@@ -38,6 +38,10 @@ export default function Home() {
           <Card_Projetos titulo_projeto={"Alura Plus"} descricao_projeto={"Projeto novamente feito com o auxílio da Alura, onde fazemos o 'marketing' de um produto fictício. Nele descubro novas funções em HTML e CSS."} tecnologias={["HTML", "CSS"]} />
           <Card_Projetos titulo_projeto={"Guardian"} descricao_projeto={"Projeto feito para trabalho de faculdade, onde criamos um site feito para uma empresa de automóveis fictícia."} tecnologias={["Next.JS", "CSS", "Typescript"]} />
           <Card_Projetos titulo_projeto={"Gaia"} descricao_projeto={"Projeto feito para a faculdade, onde divulgamos um produto, que consiste em uma rede de financiamento coletivo para projetos de energia renovável em locais de baixa renda."} tecnologias={["Next.JS", "CSS", "Typescript"]} />
+          <Card_Projetos titulo_projeto={"Temperatura"} descricao_projeto={"Projeto pessoal. Dando início aos meus estudos por conta própria. Converte a temperatura passada pelo usuário em Celsius, para Kelvin e Fahrenheit."} tecnologias={["Python"]} />
+          <Card_Projetos titulo_projeto={"Jogo da Adivinhação"} descricao_projeto={"Projeto pessoal, feito para treinar meus conhecimentos em Back-End. O sistema consiste em um jogo onde deve-se acertar um número inteiro, sorteado entre 0 e 50."} tecnologias={["Python", "Biblioteca Python"]} />
+          <Card_Projetos titulo_projeto={"Senha Forte"} descricao_projeto={"Projeto pessoal. Sistema para criar senhas fortes, com os requisitos, de 8 caracteres, uma letra maiúscula, letra minuscula e um número."} tecnologias={["Python", "Biblioteca Python"]} />
+          <Card_Projetos titulo_projeto={"Cadastro"} descricao_projeto={"Projeto pessoal, feito para cadastrar usuários. O sistema só aceita nomes de login diferentes e uma senha a escolha do usuário, após isso os dados ficam salvos em um banco."} tecnologias={["Python", "Oracle"]} />
         </div>
       </section>
 
